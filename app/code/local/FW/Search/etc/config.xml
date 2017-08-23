@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    FW
+ * @package     FW_Search
+ * @copyright   Copyright (c) 2012 F+W Media, Inc. (http://www.fwmedia.com)
+ * @author      J.P. Daniel <jp.daniel@fwmedia.com>
+ */
+-->
+<config>    
+    <modules>
+        <FW_Search>
+            <version>0.1.0</version>
+        </FW_Search>
+    </modules>
+    <global>
+        <models>
+             <enterprise_search>
+                <rewrite>
+                    <client_solr>FW_Search_Model_Client_Solr</client_solr>
+                </rewrite>
+             </enterprise_search>
+        </models>
+    </global>
+</config>
